@@ -1,0 +1,51 @@
+﻿
+/* Mojahedi */
+
+.DPNewsItemTitleCollector
+{
+    color: #133681;
+    font-size:16px;
+    font-weight:bold;
+    font-family:"B Nazanin","Nazanin",Arial;    
+}
+
+
+.NewsTitleStyleCollector
+{    
+    color: #909090;
+    font-family: Tahoma,Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal; 
+}
+
+.NewsPreTitleStyleCollector
+{
+    color: #909090;
+    font-family: Tahoma,Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom:3px;
+    display:block;
+}
+
+/* Mojahedi */
+
+
+.NewFontNewsPreTitleStyleCollector
+{
+    color: #909090;
+    font-family: Nazanin,'B Nazanin',Arial,Tahoma,Verdana,Helvetica,sans-serif !important;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom:3px;
+    display:block;
+}
+
+.NewFontNewsTitleStyleCollector
+{    
+    color: #909090;
+    font-family: Nazanin,'B Nazanin',Arial,Tahoma,Verdana,Helvetica,sans-serif !important;
+    font-size: 13px;
+    font-weight: normal; 
+}
+

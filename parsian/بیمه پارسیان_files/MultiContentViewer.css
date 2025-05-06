@@ -1,0 +1,12 @@
+﻿.WrapText
+{
+  word-wrap: break-word !important; /* IE 5+ */
+  white-space: pre !important; /* CSS 2.0 */
+  white-space: pre-wrap !important; /* CSS 2.1 */
+  white-space: -pre-wrap !important; /* Opera 4-6 */
+  white-space: -o-pre-wrap !important; /* Opera 7 */
+  white-space: -moz-pre-wrap !important; /* Mozilla */
+  white-space: -hp-pre-wrap !important; /* HP Printers */
+  _white-space: pre !important; /* IE hack to re-specify in addition to word-wrap */
+  
+}

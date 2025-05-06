@@ -1,0 +1,59 @@
+.clearfix:before,
+.clearfix:after {content: "";display: table;} 
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
+
+#dp-nav-container {
+    direction: rtl !important;
+    text-align: right;
+width: 100%;
+
+	
+}
+
+.dp-navigation-menu {margin: 0;padding: 0; display: block !important; width: 100%; direction: rtl; float: right;}
+.dp-navigation-menu  li {float: right; padding: 0; margin: 0;white-space: nowrap;width: auto; position: relative !important; list-style: none;z-index: 99999 !important;}
+.dp-navigation-menu ul {display: none;margin: 0px;padding: 0px;position: absolute !important;height: auto;width: auto;z-index: 99999 !important;}
+
+
+
+* html .dp-navigation-menu ul li {width: 223px !important; position: relative; z-index: 99999 !important;}
+
+.dp-navigation-menu li a:link, 
+.dp-navigation-menu li a:visited, 
+.dp-navigation-menu li a:hover {display: block;margin: 0px;white-space: nowrap; color: #ffffff;}
+.dp-navigation-menu li a {
+  font: normal 12px/18px byekan;
+  margin-left: -4px;
+  color: #575034 !important ;
+  padding: 6px 15px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition:  0.2s;
+  -moz-transition:  0.2s;
+  transition:  0.2s;
+  
+}
+
+.dp-navigation-menu ul li {float: none;margin: 0px;padding: 0px; white-space: nowrap; min-width: 150px; z-index: 99999 !important;}
+.dp-navigation-menu ul li a {background: transparent; color: #fff}
+
+.dp-navigation-menu ul li {border-bottom: 1px solid #999;}
+.dp-navigation-menu ul li:last-child {border-bottom: none !important;}
+.dp-navigation-menu li.parent  > a {background: url(images/arrow-down.png) no-repeat 5% 55%  transparent;}
+.dp-navigation-menu li.parent   a.parent-link {background: url(images/arrow-down.png) no-repeat 5% 55%  transparent;}
+.dp-navigation-menu ul li.parent > a {background: url(images/arrow-right.png) no-repeat 5% 55% transparent;}
+.dp-navigation-menu ul li.parent  a.parent-link{background: url(images/arrow-right.png) no-repeat 5% 55% transparent;}
+
+.dp-navigation-menu li.parent:hover > a {background: url(images/arrow-down.png) no-repeat 5% 55%  #eda03d;}
+.dp-navigation-menu ul li.parent:hover  > a {background: url(images/arrow-right.png) no-repeat 5% 55% #eda03d;}
+
+.dp-navigation-menu li a:hover, 
+.dp-navigation-menu li a.active {color: #fdc435 ;background-color: #eda03d}
+.dp-navigation-menu ul  {  background: #fdc435;}
+/* LTR Language */
+
+.ltr  .dp-navigation-menu {text-align: left;}
+.ltr  .dp-navigation-menu  li {float: left; padding: 0; margin: 0;white-space: nowrap;width: auto; position: relative !important; list-style: none;}
+.ltr .dp-navigation-menu li li {float: none;}
+.ltr  .dp-navigation-menu li a {}

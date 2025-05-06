@@ -1,0 +1,127 @@
+﻿.RadTabStrip_BlueBar_RTL
+{
+	font:13px byekan,tahoma, sans-serif;
+	text-align: center;
+	font-weight:normal;
+        
+}
+
+
+.RadTabStrip_BlueBar_RTL .level1 ul
+{
+	background: transparent url('img/tabMiddleOff.gif') 0px 0px repeat-x;
+	height: 30px;
+}
+
+/*  level 1 tabs */
+
+.RadTabStrip_BlueBar_RTL .level1 li a
+{
+	padding:0 0;
+	padding-left: 1px;
+	background: transparent url('img/tabMiddleOff.gif') 0px 0px no-repeat;
+	color: #757471;
+	text-decoration: none;
+	line-height: 30px;
+	height:30px;
+}
+
+.RadTabStrip_BlueBar_RTL .level1 li a .wrap
+{
+
+	padding-right: 1px;
+	background:transparent url('img/tabMiddleOff.gif') right 0px no-repeat;
+color: #575034;
+}
+
+.RadTabStrip_BlueBar_RTL .level1 li a .innerWrap
+{
+
+	padding:0 5px;
+x
+
+}
+
+.RadTabStrip_BlueBar_RTL .level1 li a.selected
+{
+	margin-top: 0px;
+	line-height: 30px;	
+	background:transparent url('img/selectedBorder.gif') 0px 0px no-repeat;
+}
+
+.RadTabStrip_BlueBar_RTL .level1 li a.selected .wrap
+{
+	background-image:url('img/selectedBorder.gif');
+}
+
+
+.RadTabStrip_BlueBar_RTL .level1 li a.selected .innerWrap
+{
+	background-image:url('img/tabMiddleOn.gif');
+}
+
+/* level2 tabs */
+
+.RadTabStrip_BlueBar_RTL ul
+{
+	background:transparent url('img/subTabBg.gif') 0px 0px repeat-x;
+	height: 30px;
+	
+}
+
+.RadTabStrip_BlueBar_RTL li a
+{
+	color: #333333;
+	text-decoration: none;
+	padding: 7px 9px 0px 9px;
+	height:20px;
+	background:transparent url('img/subTabMiddle.gif') 0px right no-repeat;
+}
+
+.RadTabStrip_BlueBar_RTL li a:hover
+{
+	color: #43403f;
+	text-decoration: underline;
+}
+
+ .RadTabStrip_BlueBar_RTL li a.selected
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* arrows */
+.RadTabStrip_BlueBar_RTL .rightArrow, 
+.RadTabStrip_BlueBar_RTL .leftArrow,
+.RadTabStrip_BlueBar_RTL .rightArrowDisabled, 
+.RadTabStrip_BlueBar_RTL .leftArrowDisabled
+{
+	width:17px;
+	height:22px;
+}
+
+
+
+
+.RadTabStrip_BlueBar_RTL .leftArrow
+{
+	background-image:url(img/ScrollLeft.png);
+}
+
+.RadTabStrip_BlueBar_RTL .rightArrow
+{
+	background-image:url(img/ScrollRight.png);
+}
+
+
+.RadTabStrip_BlueBar_RTL .leftArrowDisabled
+{
+	background-image:url(img/ScrollLeftDisabled.png);
+}
+
+.RadTabStrip_BlueBar_RTL .rightArrowDisabled
+{
+	background-image:url(img/ScrollRightDisabled.png);
+}
+
+
